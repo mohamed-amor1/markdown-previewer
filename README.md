@@ -2,7 +2,9 @@
 
 ![Screenshot](screenshot.png)
 
-This is a React application that allows you to enter Markdown language text and instantly see the parsed/rendered result. It's built using various technologies, including React, JavaScript, Tailwind CSS, Chakra UI, Marked, and Redux.
+[Live Demo](https://markd0wn-previewer-project.netlify.app/)
+
+This is a React application that allows you to enter Markdown language text and instantly see the parsed/rendered result. It's built using various technologies, including React, TypeScript, Tailwind CSS, Chakra UI, Marked, and Redux.
 
 ## Features
 
@@ -11,12 +13,12 @@ This is a React application that allows you to enter Markdown language text and 
 
 ## Technologies Used
 
-- React: A popular JavaScript library for building user interfaces.
-- JavaScript: The primary programming language used in this project.
-- Tailwind CSS: A utility-first CSS framework for designing responsive and stylish user interfaces.
-- Chakra UI: A simple, modular, and accessible component library for building React applications.
-- Marked: A fast and efficient Markdown parser and compiler.
-- Redux: A state management library for managing the application's state.
+- **React**: A popular JavaScript library for building user interfaces.
+- **TypeScript**: Enhancing code maintainability and type safety
+- **Tailwind CSS**: A utility-first CSS framework for designing responsive and stylish user interfaces.
+- **Chakra UI**: A simple, modular, and accessible component library for building React applications.
+- **marked**: A fast and efficient Markdown parser and compiler.
+- **Redux**: A state management library for managing the application's state.
 
 ## License
 
