@@ -22,7 +22,7 @@ function App() {
           Markdown Previewer
         </Highlight>
       </Heading>
-      <Flex class="mx-auto" align="center" justify="center" m="10px">
+      <Flex className="mx-auto" align="center" justify="center" m="10px">
         <a href="https://github.com/mohamed-amor1">
           <GithubLogo size={32} />
         </a>

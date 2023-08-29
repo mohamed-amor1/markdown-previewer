@@ -1,13 +1,17 @@
-import React from "react";
 import { Textarea, Heading } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { updateMarkdownInput } from "../actions";
 
+// Import the RootState type
+import { RootState } from "../types"; // Adjust the path as needed
+
 export default function Editor() {
   const dispatch = useDispatch();
-  const markdownInput = useSelector((state) => state.markdownInput);
 
-  const handleInputChange = (e) => {
+  // Specify the RootState type here
+  const markdownInput = useSelector((state: RootState) => state.markdownInput);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const inputText = e.target.value;
     dispatch(updateMarkdownInput(inputText));
   };
