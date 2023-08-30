@@ -60,7 +60,7 @@ function App() {
         <Divider m={6} borderColor="gray.400" />
       </Flex>
       <Flex justifyContent="space-between">
-        {isSmallScreen ? ( // Check if it's a small screen
+        {isSmallScreen ? (
           <VStack
             flex="1"
             divider={<StackDivider borderColor="gray.200" />}

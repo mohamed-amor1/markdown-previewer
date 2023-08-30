@@ -4,6 +4,11 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
+  background-color: white !important;
+}
+
+html {
+  background-color: white !important;
 }
 
 #editor {
