@@ -1,4 +1,4 @@
-import { Textarea, Heading } from "@chakra-ui/react";
+import { Textarea, Heading, Box } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { updateMarkdownInput } from "../actions";
 
@@ -17,9 +17,9 @@ export default function Editor() {
   };
 
   return (
-    <div>
+    <Box>
       <Heading size="lg" color="#3182CE">
-        <code>Editor</code>
+        <code>Editor</code> <br />
       </Heading>
       <Textarea
         id="editor"
@@ -28,6 +28,6 @@ export default function Editor() {
         onChange={handleInputChange}
         autoFocus
       />
-    </div>
+    </Box>
   );
 }

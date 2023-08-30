@@ -1,7 +1,7 @@
 import "./App.css";
 import Editor from "./components/Editor";
 import Preview from "./components/Preview";
-import { Flex, Spacer, Heading, Highlight, Divider } from "@chakra-ui/react";
+import { Flex, Heading, Highlight, Divider, Box } from "@chakra-ui/react";
 
 import { At, GithubLogo } from "@phosphor-icons/react";
 
@@ -34,10 +34,13 @@ function App() {
       <Flex>
         <Divider m={6} borderColor="gray.400" />
       </Flex>
-      <Flex>
-        <Editor />
-        <Spacer />
-        <Preview />
+      <Flex justifyContent="space-between">
+        <Box flex="1">
+          <Editor />
+        </Box>
+        <Box flex="1">
+          <Preview />
+        </Box>
       </Flex>
     </>
   );
