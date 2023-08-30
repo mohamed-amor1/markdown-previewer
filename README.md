@@ -1,4 +1,4 @@
-# React Markdown Previewer
+# Markdown Previewer
 
 ![Screenshot](screenshot.png)
 
